@@ -1,6 +1,6 @@
 from pathlib import Path
 
-BASE = Path(r"C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem")
+BASE = Path(r"C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl")
 
 ARQUIVO_RECEBIMENTO_GLOBAL = BASE / "recebimento_global.json"
 
