@@ -1074,7 +1074,7 @@ def renderizar_painel(nome_impressora: str):
             unsafe_allow_html=True,
         )
     else:
-        st.dataframe(df, use_container_width=True)
+        st.dataframe(df, width="stretch")
 
     section_label("Histórico de pallets")
 
@@ -1092,7 +1092,7 @@ def renderizar_painel(nome_impressora: str):
             }
             for arq in arquivos_historico[:20]
         ]
-        st.dataframe(pd.DataFrame(dados), use_container_width=True, hide_index=True)
+        st.dataframe(pd.DataFrame(dados), width="stretch", hide_index=True)
     else:
         st.markdown(
             """
