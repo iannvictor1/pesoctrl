@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Ambiente virtual
+venv/
+.env/
+
+# Logs
+*.log
+
+# Excel gerado
+*.xlsx
+
+# Arquivos de sessão
+*.json
+
+# Pastas do sistema
+entrada_etiquetas/
+fila_processamento/
+historico_etiquetas/
+historico_pesagens/
+fila_descartada/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
