@@ -559,12 +559,15 @@ def extrair_validade(conteudo: str) -> str:
 
 
 def extrair_qtd_etiquetas(conteudo: str) -> int:
-    m = re.search(r"\^PQ\s*(\d+)", conteudo, flags=re.IGNORECASE)
-    if m:
-        try:
-            return int(m.group(1))
-        except Exception:
-            pass
+    quantidades = re.findall(r"\^PQ\s*(\d+)", conteudo, flags=re.IGNORECASE)
+    if quantidades:
+        total = 0
+        for quantidade in quantidades:
+            try:
+                total += int(quantidade)
+            except Exception:
+                total += 1
+        return total if total > 0 else 1
     return 1
 
 

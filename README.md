@@ -222,6 +222,38 @@ Controle\_Pesagem/
 
 
 
+##### Atualizacao via GitHub em producao
+
+Para atualizar o computador de producao pelo proprio computador:
+
+```powershell
+.\scripts\atualizar_producao.ps1
+```
+
+Se o Streamlit estiver rodando por tarefa agendada, informe o nome da tarefa para reiniciar a tela depois do `git pull`:
+
+```powershell
+.\scripts\atualizar_producao.ps1 -Task "PesoCtrlStreamlit"
+```
+
+Para criar uma tarefa agendada que inicia o PesoCtrl junto com o Windows, abra o PowerShell como Administrador e execute:
+
+```powershell
+.\scripts\criar_tarefa_streamlit_producao.ps1 -TaskName "PesoCtrlStreamlit"
+```
+
+Para disparar a atualizacao remotamente a partir de outro computador, habilite PowerShell Remoting/WinRM na maquina de producao e execute:
+
+```powershell
+.\scripts\atualizar_remoto.ps1 -ComputerName "NOME-OU-IP-DA-PRODUCAO" -ProjectDir "C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl" -Task "PesoCtrlStreamlit"
+```
+
+O script executa `git pull`, cria/atualiza `.venv`, instala as dependencias de `requirements.txt` e reinicia servico ou tarefa agendada quando informado.
+
+O arquivo `config.py` e protegido antes do `git pull`, para preservar os caminhos e impressoras configurados na maquina de producao.
+
+
+
 ##### **📌 Possíveis melhorias futuras**
 
 **🔐 Sistema de autenticação**

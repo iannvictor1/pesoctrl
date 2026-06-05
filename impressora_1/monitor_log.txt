@@ -1,0 +1,485 @@
+[2026-04-01 15:16:41] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-01 15:16:41] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-01 15:16:41] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-01 15:26:54] [impressora_1] Sessão iniciada | ID: 20260401_152654
+[2026-04-01 15:27:00] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-01 15:27:00] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-01 15:27:06] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-01_15-27-06_sessao_20260401_152654.xlsx
+[2026-04-01 15:27:06] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-01 15:27:06] [impressora_1] Sessão encerrada | ID: 20260401_152654
+[2026-04-01 15:31:20] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-01 15:31:20] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 09:52:36] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-02 09:52:36] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 10:02:25] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-02 10:02:25] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 10:02:31] [impressora_1] Sessão iniciada | ID: 20260402_100231
+[2026-04-02 10:02:33] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-02_10-02-33_sessao_20260402_100231.xlsx
+[2026-04-02 10:02:33] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-02 10:02:33] [impressora_1] Sessão encerrada | ID: 20260402_100231
+[2026-04-02 10:07:21] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-02 10:07:21] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 10:07:30] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-02 10:07:30] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 10:08:01] [impressora_1] Sessão iniciada | ID: 20260402_100801
+[2026-04-02 10:08:20] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-02_10-08-20_sessao_20260402_100801.xlsx
+[2026-04-02 10:08:20] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-02 10:08:20] [impressora_1] Sessão encerrada | ID: 20260402_100801
+[2026-04-02 10:08:26] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-02 10:08:26] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 10:22:14] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-02 10:22:14] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 10:22:17] [impressora_1] Sessão iniciada | ID: 20260402_102217
+[2026-04-02 10:22:22] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-02_10-22-22_sessao_20260402_102217.xlsx
+[2026-04-02 10:22:22] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-02 10:22:22] [impressora_1] Sessão encerrada | ID: 20260402_102217
+[2026-04-02 10:22:28] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-02 10:22:28] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 11:09:41] [impressora_1] Sessão iniciada | ID: 20260402_110941
+[2026-04-02 11:09:44] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-02 11:09:44] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 11:09:52] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-02_11-09-52_sessao_20260402_110941.xlsx
+[2026-04-02 11:09:52] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-02 11:09:52] [impressora_1] Sessão encerrada | ID: 20260402_110941
+[2026-04-02 11:17:23] [impressora_1] Sessão iniciada | ID: 20260402_111722
+[2026-04-02 11:17:25] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-02 11:17:25] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 11:17:29] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-02_11-17-29_sessao_20260402_111722.xlsx
+[2026-04-02 11:17:29] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-02 11:17:29] [impressora_1] Sessão encerrada | ID: 20260402_111722
+[2026-04-02 14:15:52] [impressora_1] Sessão iniciada | ID: 20260402_141551
+[2026-04-02 14:15:56] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-02 14:15:56] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-02 14:17:01] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-02_14-17-01_sessao_20260402_141551.xlsx
+[2026-04-02 14:17:01] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-02 14:17:01] [impressora_1] Sessão encerrada | ID: 20260402_141551
+[2026-04-06 09:47:11] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-06 09:47:11] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-06 09:47:14] [impressora_1] Sessão iniciada | ID: 20260406_094714
+[2026-04-06 09:47:18] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_09-47-18_sessao_20260406_094714.xlsx
+[2026-04-06 09:47:18] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 09:47:18] [impressora_1] Sessão encerrada | ID: 20260406_094714
+[2026-04-06 09:47:26] [impressora_1] Sessão iniciada | ID: 20260406_094726
+[2026-04-06 09:47:33] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_09-47-33_sessao_20260406_094726.xlsx
+[2026-04-06 09:47:33] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 09:47:33] [impressora_1] Sessão encerrada | ID: 20260406_094726
+[2026-04-06 09:47:45] [impressora_1] Sessão iniciada | ID: 20260406_094745
+[2026-04-06 09:48:16] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_09-48-16_sessao_20260406_094745.xlsx
+[2026-04-06 09:48:16] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 09:48:16] [impressora_1] Sessão encerrada | ID: 20260406_094745
+[2026-04-06 10:00:10] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-06 10:00:10] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-06 10:00:12] [impressora_1] Sessão iniciada | ID: 20260406_100012
+[2026-04-06 10:01:26] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_100012__20260406_100126_804598__754b2478.prn
+[2026-04-06 10:01:27] [impressora_1] Arquivo removido da fila após processamento: 20260406_100012__20260406_100126_804598__754b2478.prn
+[2026-04-06 10:01:27] [impressora_1] Registrado | Arquivo fila: 20260406_100012__20260406_100126_804598__754b2478.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 10:02:28] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_10-02-28_sessao_20260406_100012.xlsx
+[2026-04-06 10:02:28] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 10:02:28] [impressora_1] Sessão encerrada | ID: 20260406_100012
+[2026-04-06 10:09:16] [impressora_1] Sessão iniciada | ID: 20260406_100916
+[2026-04-06 10:15:47] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_10-15-47_sessao_20260406_100916.xlsx
+[2026-04-06 10:15:47] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 10:15:47] [impressora_1] Sessão encerrada | ID: 20260406_100916
+[2026-04-06 10:15:58] [impressora_1] Sessão iniciada | ID: 20260406_101558
+[2026-04-06 10:15:58] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-06 10:15:58] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-06 10:16:47] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_101558__20260406_101647_217130__fd93af7a.prn
+[2026-04-06 10:16:47] [impressora_1] Arquivo removido da fila após processamento: 20260406_101558__20260406_101647_217130__fd93af7a.prn
+[2026-04-06 10:16:47] [impressora_1] Registrado | Arquivo fila: 20260406_101558__20260406_101647_217130__fd93af7a.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 10:16:50] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_101558__20260406_101650_509300__2621fabd.prn
+[2026-04-06 10:16:51] [impressora_1] Arquivo removido da fila após processamento: 20260406_101558__20260406_101650_509300__2621fabd.prn
+[2026-04-06 10:16:51] [impressora_1] Registrado | Arquivo fila: 20260406_101558__20260406_101650_509300__2621fabd.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 10:18:25] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_10-18-25_sessao_20260406_101558.xlsx
+[2026-04-06 10:18:25] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 10:18:25] [impressora_1] Sessão encerrada | ID: 20260406_101558
+[2026-04-06 10:35:02] [impressora_1] Sessão iniciada | ID: 20260406_103502
+[2026-04-06 10:35:08] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-06 10:35:08] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-06 10:36:12] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_103502__20260406_103612_384353__bca833b8.prn
+[2026-04-06 10:36:12] [impressora_1] Arquivo removido da fila após processamento: 20260406_103502__20260406_103612_384353__bca833b8.prn
+[2026-04-06 10:36:12] [impressora_1] Registrado | Arquivo fila: 20260406_103502__20260406_103612_384353__bca833b8.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 10:36:14] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_103502__20260406_103614_984933__483044f6.prn
+[2026-04-06 10:36:15] [impressora_1] Arquivo removido da fila após processamento: 20260406_103502__20260406_103614_984933__483044f6.prn
+[2026-04-06 10:36:15] [impressora_1] Registrado | Arquivo fila: 20260406_103502__20260406_103614_984933__483044f6.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 10:36:47] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_10-36-47_sessao_20260406_103502.xlsx
+[2026-04-06 10:36:47] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 10:36:47] [impressora_1] Sessão encerrada | ID: 20260406_103502
+[2026-04-06 10:40:56] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-06 10:40:56] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-06 10:41:03] [impressora_1] Sessão iniciada | ID: 20260406_104103
+[2026-04-06 10:41:10] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_104103__20260406_104110_391980__718d5082.prn
+[2026-04-06 10:41:11] [impressora_1] Arquivo removido da fila após processamento: 20260406_104103__20260406_104110_391980__718d5082.prn
+[2026-04-06 10:41:11] [impressora_1] Registrado | Arquivo fila: 20260406_104103__20260406_104110_391980__718d5082.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 10:41:12] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_104103__20260406_104112_278158__33fb328e.prn
+[2026-04-06 10:41:12] [impressora_1] Arquivo removido da fila após processamento: 20260406_104103__20260406_104112_278158__33fb328e.prn
+[2026-04-06 10:41:12] [impressora_1] Registrado | Arquivo fila: 20260406_104103__20260406_104112_278158__33fb328e.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 10:41:22] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_104103__20260406_104122_546358__cf9f1e5f.prn
+[2026-04-06 10:41:23] [impressora_1] Arquivo removido da fila após processamento: 20260406_104103__20260406_104122_546358__cf9f1e5f.prn
+[2026-04-06 10:41:23] [impressora_1] Registrado | Arquivo fila: 20260406_104103__20260406_104122_546358__cf9f1e5f.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 10:41:35] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_10-41-35_sessao_20260406_104103.xlsx
+[2026-04-06 10:41:35] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 10:41:35] [impressora_1] Sessão encerrada | ID: 20260406_104103
+[2026-04-06 10:45:21] [impressora_1] Sessão iniciada | ID: 20260406_104521
+[2026-04-06 10:45:26] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-06 10:45:26] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-06 10:45:48] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_104521__20260406_104548_730393__3975d977.prn
+[2026-04-06 10:45:49] [impressora_1] Arquivo removido da fila após processamento: 20260406_104521__20260406_104548_730393__3975d977.prn
+[2026-04-06 10:45:49] [impressora_1] Registrado | Arquivo fila: 20260406_104521__20260406_104548_730393__3975d977.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 10:45:55] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_104521__20260406_104555_829673__2f44ddc7.prn
+[2026-04-06 10:45:56] [impressora_1] Arquivo removido da fila após processamento: 20260406_104521__20260406_104555_829673__2f44ddc7.prn
+[2026-04-06 10:45:56] [impressora_1] Registrado | Arquivo fila: 20260406_104521__20260406_104555_829673__2f44ddc7.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 10:46:19] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_10-46-19_sessao_20260406_104521.xlsx
+[2026-04-06 10:46:19] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 10:46:19] [impressora_1] Sessão encerrada | ID: 20260406_104521
+[2026-04-06 10:46:49] [impressora_1] Sessão iniciada | ID: 20260406_104649
+[2026-04-06 10:46:54] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_10-46-54_sessao_20260406_104649.xlsx
+[2026-04-06 10:46:54] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 10:46:54] [impressora_1] Sessão encerrada | ID: 20260406_104649
+[2026-04-06 10:58:57] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-06 10:58:57] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-06 10:59:03] [impressora_1] Sessão iniciada | ID: 20260406_105903
+[2026-04-06 11:06:16] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_11-06-16_sessao_20260406_105903.xlsx
+[2026-04-06 11:06:16] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 11:06:16] [impressora_1] Sessão encerrada | ID: 20260406_105903
+[2026-04-06 11:06:37] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-06 11:06:37] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-06 11:06:42] [impressora_1] Sessão iniciada | ID: 20260406_110642
+[2026-04-06 11:06:53] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_110642__20260406_110653_624018__1111a8f8.prn
+[2026-04-06 11:06:54] [impressora_1] Arquivo removido da fila após processamento: 20260406_110642__20260406_110653_624018__1111a8f8.prn
+[2026-04-06 11:06:54] [impressora_1] Registrado | Arquivo fila: 20260406_110642__20260406_110653_624018__1111a8f8.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 11:06:55] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_110642__20260406_110655_658658__6d6afc66.prn
+[2026-04-06 11:06:56] [impressora_1] Arquivo removido da fila após processamento: 20260406_110642__20260406_110655_658658__6d6afc66.prn
+[2026-04-06 11:06:56] [impressora_1] Registrado | Arquivo fila: 20260406_110642__20260406_110655_658658__6d6afc66.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 11:06:57] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_110642__20260406_110657_137837__b7a5bb95.prn
+[2026-04-06 11:06:57] [impressora_1] Arquivo removido da fila após processamento: 20260406_110642__20260406_110657_137837__b7a5bb95.prn
+[2026-04-06 11:06:57] [impressora_1] Registrado | Arquivo fila: 20260406_110642__20260406_110657_137837__b7a5bb95.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 11:07:10] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_110642__20260406_110710_947871__ffd00c95.prn
+[2026-04-06 11:07:11] [impressora_1] Arquivo removido da fila após processamento: 20260406_110642__20260406_110710_947871__ffd00c95.prn
+[2026-04-06 11:07:11] [impressora_1] Registrado | Arquivo fila: 20260406_110642__20260406_110710_947871__ffd00c95.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 11:07:15] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_110642__20260406_110715_320855__f2bddd73.prn
+[2026-04-06 11:07:15] [impressora_1] Arquivo removido da fila após processamento: 20260406_110642__20260406_110715_320855__f2bddd73.prn
+[2026-04-06 11:07:16] [impressora_1] Registrado | Arquivo fila: 20260406_110642__20260406_110715_320855__f2bddd73.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 11:10:24] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_11-10-24_sessao_20260406_110642.xlsx
+[2026-04-06 11:10:24] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 11:10:24] [impressora_1] Sessão encerrada | ID: 20260406_110642
+[2026-04-06 11:42:57] [impressora_1] Limpeza automática em histórico de etiquetas: removidos=7, erros=0, retenção=7 dias
+[2026-04-06 11:42:57] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-06 11:42:57] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-06 11:42:59] [impressora_1] Sessão iniciada | ID: 20260406_114259
+[2026-04-06 11:43:11] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_11-43-11_sessao_20260406_114259.xlsx
+[2026-04-06 11:43:11] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 11:43:11] [impressora_1] Sessão encerrada | ID: 20260406_114259
+[2026-04-06 12:51:10] [impressora_1] Sessão iniciada | ID: 20260406_125110
+[2026-04-06 12:51:13] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-06 12:51:13] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-06 12:51:22] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_125110__20260406_125122_088538__cf59d664.prn
+[2026-04-06 12:51:22] [impressora_1] Arquivo removido da fila após processamento: 20260406_125110__20260406_125122_088538__cf59d664.prn
+[2026-04-06 12:51:22] [impressora_1] Registrado | Arquivo fila: 20260406_125110__20260406_125122_088538__cf59d664.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 12:51:25] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260406_125110__20260406_125125_392656__25466a16.prn
+[2026-04-06 12:51:26] [impressora_1] Arquivo removido da fila após processamento: 20260406_125110__20260406_125125_392656__25466a16.prn
+[2026-04-06 12:51:26] [impressora_1] Registrado | Arquivo fila: 20260406_125110__20260406_125125_392656__25466a16.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-06 12:52:19] [impressora_1] Excel da sessão movido para histórico: pesagem_2026-04-06_12-52-19_sessao_20260406_125110.xlsx
+[2026-04-06 12:52:19] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-06 12:52:19] [impressora_1] Sessão encerrada | ID: 20260406_125110
+[2026-04-07 10:25:08] [impressora_1] Recebimento iniciado | ID: 20260407_102508
+[2026-04-07 10:25:20] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-07 10:25:20] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-07 10:25:21] [impressora_1] Pallet iniciado | Recebimento: 20260407_102508 | Pallet nº 1 | Sessão: 20260407_102521
+[2026-04-07 10:25:46] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260407.xlsx
+[2026-04-07 10:25:46] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 10:25:46] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260407.xlsx
+[2026-04-07 10:25:53] [impressora_1] Recebimento encerrado | ID: 20260407_102508 | Pallets: 1
+[2026-04-07 10:38:41] [impressora_1] Recebimento iniciado | ID: 20260407_103841
+[2026-04-07 10:38:45] [impressora_1] Recebimento encerrado | ID: 20260407_103841 | Pallets: 0
+[2026-04-07 10:44:01] [impressora_1] Recebimento iniciado | ID: 20260407_104401
+[2026-04-07 10:44:05] [impressora_1] Pallet iniciado | Recebimento: 20260407_104401 | Pallet nº 1 | Sessão: 20260407_104405
+[2026-04-07 10:44:11] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-07 10:44:11] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-07 10:44:28] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260407_104405__20260407_104428_643609__115bb37c.prn
+[2026-04-07 10:44:28] [impressora_1] Descrição do produto definida automaticamente: LAGARTO BOV CONG FRIBOI
+[2026-04-07 10:44:28] [impressora_1] Arquivo removido da fila após processamento: 20260407_104405__20260407_104428_643609__115bb37c.prn
+[2026-04-07 10:44:28] [impressora_1] Registrado | Arquivo fila: 20260407_104405__20260407_104428_643609__115bb37c.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-07 10:44:37] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260407_104405__20260407_104437_949950__9d0ed724.prn
+[2026-04-07 10:44:38] [impressora_1] Arquivo removido da fila após processamento: 20260407_104405__20260407_104437_949950__9d0ed724.prn
+[2026-04-07 10:44:38] [impressora_1] Registrado | Arquivo fila: 20260407_104405__20260407_104437_949950__9d0ed724.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-07 10:44:41] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260407_104405__20260407_104441_332100__1c7b113d.prn
+[2026-04-07 10:44:42] [impressora_1] Arquivo removido da fila após processamento: 20260407_104405__20260407_104441_332100__1c7b113d.prn
+[2026-04-07 10:44:42] [impressora_1] Registrado | Arquivo fila: 20260407_104405__20260407_104441_332100__1c7b113d.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-07 10:44:55] [impressora_1] Excel do pallet movido para histórico: pallet_1_LAGARTO_BOV_CONG_FRIBOI_20260407.xlsx
+[2026-04-07 10:44:55] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 10:44:55] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_LAGARTO_BOV_CONG_FRIBOI_20260407.xlsx
+[2026-04-07 10:45:06] [impressora_1] Pallet iniciado | Recebimento: 20260407_104401 | Pallet nº 2 | Sessão: 20260407_104506
+[2026-04-07 10:45:48] [impressora_1] Excel do pallet movido para histórico: pallet_2_sem_descricao_20260407.xlsx
+[2026-04-07 10:45:48] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 10:45:48] [impressora_1] Pallet encerrado | Nº 2 | Arquivo: pallet_2_sem_descricao_20260407.xlsx
+[2026-04-07 10:45:53] [impressora_1] Recebimento encerrado | ID: 20260407_104401 | Pallets: 2
+[2026-04-07 11:10:18] [impressora_1] Recebimento iniciado | ID: 20260407_111018
+[2026-04-07 11:10:21] [impressora_1] Pallet iniciado | Recebimento: 20260407_111018 | Pallet nº 1 | Sessão: 20260407_111021
+[2026-04-07 11:10:26] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260407_1.xlsx
+[2026-04-07 11:10:26] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 11:10:26] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260407_1.xlsx
+[2026-04-07 11:17:06] [impressora_1] Recebimento encerrado | ID: 20260407_111018 | Pallets: 1
+[2026-04-07 11:27:58] [impressora_1] Recebimento iniciado | ID: 20260407_112758
+[2026-04-07 11:28:12] [impressora_1] Pallet iniciado | Recebimento: 20260407_112758 | Pallet nº 1 | Sessão: 20260407_112812
+[2026-04-07 11:28:21] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-07 11:28:21] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-07 11:28:36] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260407_2.xlsx
+[2026-04-07 11:28:36] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 11:28:36] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260407_2.xlsx
+[2026-04-07 11:28:42] [impressora_1] Recebimento encerrado | ID: 20260407_112758 | Pallets: 1
+[2026-04-07 12:48:02] [impressora_1] Limpeza automática em histórico de etiquetas: removidos=17, erros=0, retenção=7 dias
+[2026-04-07 12:49:11] [impressora_1] Recebimento iniciado | ID: 20260407_124911
+[2026-04-07 12:49:13] [impressora_1] Pallet iniciado | Recebimento: 20260407_124911 | Pallet nº 1 | Sessão: 20260407_124913
+[2026-04-07 12:49:17] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-07 12:49:17] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-07 12:49:34] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260407_3.xlsx
+[2026-04-07 12:49:34] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 12:49:34] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260407_3.xlsx
+[2026-04-07 12:49:39] [impressora_1] Recebimento encerrado | ID: 20260407_124911 | Pallets: 1
+[2026-04-07 14:30:57] [impressora_1] Recebimento global iniciado | ID: 20260407_143057
+[2026-04-07 14:31:06] [impressora_1] Recebimento global encerrado | ID: 20260407_143057 | Pallets: 0
+[2026-04-07 14:32:55] [impressora_1] Recebimento global iniciado | ID: 20260407_143255
+[2026-04-07 14:33:01] [impressora_1] Pallet iniciado | Recebimento: 20260407_143255 | Pallet nº 1 | Sessão: 20260407_143301
+[2026-04-07 14:33:05] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-07 14:33:05] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-07 14:33:13] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260407_4.xlsx
+[2026-04-07 14:33:13] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 14:33:13] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260407_4.xlsx
+[2026-04-07 14:33:27] [impressora_1] Recebimento global encerrado | ID: 20260407_143255 | Pallets: 1
+[2026-04-07 15:34:26] [impressora_1] Recebimento global iniciado | ID: 20260407_153426
+[2026-04-07 15:34:30] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 1 | Sessão: 20260407_153430
+[2026-04-07 15:34:39] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260407_5.xlsx
+[2026-04-07 15:34:39] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:34:39] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260407_5.xlsx
+[2026-04-07 15:34:39] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 2 | Sessão: 20260407_153439
+[2026-04-07 15:34:41] [impressora_1] Excel do pallet movido para histórico: pallet_2_sem_descricao_20260407_1.xlsx
+[2026-04-07 15:34:41] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:34:41] [impressora_1] Pallet encerrado | Nº 2 | Arquivo: pallet_2_sem_descricao_20260407_1.xlsx
+[2026-04-07 15:34:41] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 3 | Sessão: 20260407_153441
+[2026-04-07 15:34:42] [impressora_1] Excel do pallet movido para histórico: pallet_3_sem_descricao_20260407.xlsx
+[2026-04-07 15:34:42] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:34:42] [impressora_1] Pallet encerrado | Nº 3 | Arquivo: pallet_3_sem_descricao_20260407.xlsx
+[2026-04-07 15:34:42] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 4 | Sessão: 20260407_153442
+[2026-04-07 15:35:31] [impressora_1] Excel do pallet movido para histórico: pallet_4_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:31] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:31] [impressora_1] Pallet encerrado | Nº 4 | Arquivo: pallet_4_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:32] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 5 | Sessão: 20260407_153532
+[2026-04-07 15:35:44] [impressora_1] Excel do pallet movido para histórico: pallet_5_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:44] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:44] [impressora_1] Pallet encerrado | Nº 5 | Arquivo: pallet_5_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:44] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 6 | Sessão: 20260407_153544
+[2026-04-07 15:35:45] [impressora_1] Excel do pallet movido para histórico: pallet_6_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:45] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:45] [impressora_1] Pallet encerrado | Nº 6 | Arquivo: pallet_6_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:45] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 7 | Sessão: 20260407_153545
+[2026-04-07 15:35:46] [impressora_1] Excel do pallet movido para histórico: pallet_7_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:46] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:46] [impressora_1] Pallet encerrado | Nº 7 | Arquivo: pallet_7_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:46] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 8 | Sessão: 20260407_153546
+[2026-04-07 15:35:46] [impressora_1] Excel do pallet movido para histórico: pallet_8_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:46] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:46] [impressora_1] Pallet encerrado | Nº 8 | Arquivo: pallet_8_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:46] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 9 | Sessão: 20260407_153546
+[2026-04-07 15:35:47] [impressora_1] Excel do pallet movido para histórico: pallet_9_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:47] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:47] [impressora_1] Pallet encerrado | Nº 9 | Arquivo: pallet_9_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:47] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 10 | Sessão: 20260407_153547
+[2026-04-07 15:35:47] [impressora_1] Excel do pallet movido para histórico: pallet_10_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:47] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:47] [impressora_1] Pallet encerrado | Nº 10 | Arquivo: pallet_10_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:47] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 11 | Sessão: 20260407_153547
+[2026-04-07 15:35:47] [impressora_1] Excel do pallet movido para histórico: pallet_11_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:47] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:47] [impressora_1] Pallet encerrado | Nº 11 | Arquivo: pallet_11_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:47] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 12 | Sessão: 20260407_153547
+[2026-04-07 15:35:48] [impressora_1] Excel do pallet movido para histórico: pallet_12_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:48] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:48] [impressora_1] Pallet encerrado | Nº 12 | Arquivo: pallet_12_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:48] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 13 | Sessão: 20260407_153548
+[2026-04-07 15:35:48] [impressora_1] Excel do pallet movido para histórico: pallet_13_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:48] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:48] [impressora_1] Pallet encerrado | Nº 13 | Arquivo: pallet_13_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:48] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 14 | Sessão: 20260407_153548
+[2026-04-07 15:35:49] [impressora_1] Excel do pallet movido para histórico: pallet_14_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:49] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:49] [impressora_1] Pallet encerrado | Nº 14 | Arquivo: pallet_14_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:49] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 15 | Sessão: 20260407_153549
+[2026-04-07 15:35:49] [impressora_1] Excel do pallet movido para histórico: pallet_15_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:49] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:49] [impressora_1] Pallet encerrado | Nº 15 | Arquivo: pallet_15_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:49] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 16 | Sessão: 20260407_153549
+[2026-04-07 15:35:50] [impressora_1] Excel do pallet movido para histórico: pallet_16_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:50] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:50] [impressora_1] Pallet encerrado | Nº 16 | Arquivo: pallet_16_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:50] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 17 | Sessão: 20260407_153550
+[2026-04-07 15:35:51] [impressora_1] Excel do pallet movido para histórico: pallet_17_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:51] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:51] [impressora_1] Pallet encerrado | Nº 17 | Arquivo: pallet_17_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:51] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 18 | Sessão: 20260407_153551
+[2026-04-07 15:35:51] [impressora_1] Excel do pallet movido para histórico: pallet_18_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:51] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:51] [impressora_1] Pallet encerrado | Nº 18 | Arquivo: pallet_18_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:51] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 19 | Sessão: 20260407_153551
+[2026-04-07 15:35:52] [impressora_1] Excel do pallet movido para histórico: pallet_19_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:52] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:35:52] [impressora_1] Pallet encerrado | Nº 19 | Arquivo: pallet_19_sem_descricao_20260407.xlsx
+[2026-04-07 15:35:52] [impressora_1] Pallet iniciado | Recebimento: 20260407_153426 | Pallet nº 20 | Sessão: 20260407_153552
+[2026-04-07 15:38:49] [impressora_1] Excel do pallet movido para histórico: pallet_20_sem_descricao_20260407.xlsx
+[2026-04-07 15:38:49] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 15:38:49] [impressora_1] Pallet encerrado | Nº 20 | Arquivo: pallet_20_sem_descricao_20260407.xlsx
+[2026-04-07 15:39:03] [impressora_1] Recebimento global encerrado | ID: 20260407_153426 | Pallets: 20
+[2026-04-10 09:08:49] [impressora_1] Recebimento global iniciado | ID: 20260410_090849
+[2026-04-10 09:08:51] [impressora_1] Pallet iniciado | Recebimento: 20260410_090849 | Pallet nº 1 | Sessão: 20260410_090851
+[2026-04-10 09:08:56] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260410.xlsx
+[2026-04-10 09:08:56] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:08:56] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260410.xlsx
+[2026-04-10 09:08:56] [impressora_1] Pallet iniciado | Recebimento: 20260410_090849 | Pallet nº 2 | Sessão: 20260410_090856
+[2026-04-10 09:09:07] [impressora_1] Excel do pallet movido para histórico: pallet_2_sem_descricao_20260410.xlsx
+[2026-04-10 09:09:07] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:09:07] [impressora_1] Pallet encerrado | Nº 2 | Arquivo: pallet_2_sem_descricao_20260410.xlsx
+[2026-04-10 09:09:07] [impressora_1] Pallet iniciado | Recebimento: 20260410_090849 | Pallet nº 3 | Sessão: 20260410_090907
+[2026-04-10 09:09:09] [impressora_1] Excel do pallet movido para histórico: pallet_3_sem_descricao_20260410.xlsx
+[2026-04-10 09:09:09] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:09:09] [impressora_1] Pallet encerrado | Nº 3 | Arquivo: pallet_3_sem_descricao_20260410.xlsx
+[2026-04-10 09:09:09] [impressora_1] Pallet iniciado | Recebimento: 20260410_090849 | Pallet nº 4 | Sessão: 20260410_090909
+[2026-04-10 09:09:12] [impressora_1] Excel do pallet movido para histórico: pallet_4_sem_descricao_20260410.xlsx
+[2026-04-10 09:09:12] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:09:12] [impressora_1] Pallet encerrado | Nº 4 | Arquivo: pallet_4_sem_descricao_20260410.xlsx
+[2026-04-10 09:09:28] [impressora_1] Recebimento global encerrado | ID: 20260410_090849 | Pallets: 4
+[2026-04-10 09:12:06] [impressora_1] Recebimento global iniciado | ID: 20260410_091206
+[2026-04-10 09:12:10] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-10 09:12:10] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-10 09:12:12] [impressora_1] Pallet iniciado | Recebimento: 20260410_091206 | Pallet nº 1 | Sessão: 20260410_091212
+[2026-04-10 09:12:17] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260410_1.xlsx
+[2026-04-10 09:12:17] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:12:17] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260410_1.xlsx
+[2026-04-10 09:12:23] [impressora_1] Recebimento global encerrado | ID: 20260410_091206 | Pallets: 1
+[2026-04-10 09:12:29] [impressora_1] Recebimento global iniciado | ID: 20260410_091229
+[2026-04-10 09:12:31] [impressora_1] Pallet iniciado | Recebimento: 20260410_091229 | Pallet nº 1 | Sessão: 20260410_091231
+[2026-04-10 09:12:35] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260410_2.xlsx
+[2026-04-10 09:12:36] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:12:36] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260410_2.xlsx
+[2026-04-10 09:12:36] [impressora_1] Pallet iniciado | Recebimento: 20260410_091229 | Pallet nº 2 | Sessão: 20260410_091236
+[2026-04-10 09:12:38] [impressora_1] Excel do pallet movido para histórico: pallet_2_sem_descricao_20260410_1.xlsx
+[2026-04-10 09:12:38] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:12:38] [impressora_1] Pallet encerrado | Nº 2 | Arquivo: pallet_2_sem_descricao_20260410_1.xlsx
+[2026-04-10 09:12:38] [impressora_1] Pallet iniciado | Recebimento: 20260410_091229 | Pallet nº 3 | Sessão: 20260410_091238
+[2026-04-10 09:12:39] [impressora_1] Excel do pallet movido para histórico: pallet_3_sem_descricao_20260410_1.xlsx
+[2026-04-10 09:12:39] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:12:39] [impressora_1] Pallet encerrado | Nº 3 | Arquivo: pallet_3_sem_descricao_20260410_1.xlsx
+[2026-04-10 09:12:39] [impressora_1] Pallet iniciado | Recebimento: 20260410_091229 | Pallet nº 4 | Sessão: 20260410_091239
+[2026-04-10 09:12:41] [impressora_1] Excel do pallet movido para histórico: pallet_4_sem_descricao_20260410_1.xlsx
+[2026-04-10 09:12:41] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:12:41] [impressora_1] Pallet encerrado | Nº 4 | Arquivo: pallet_4_sem_descricao_20260410_1.xlsx
+[2026-04-10 09:12:41] [impressora_1] Pallet iniciado | Recebimento: 20260410_091229 | Pallet nº 5 | Sessão: 20260410_091241
+[2026-04-10 09:12:43] [impressora_1] Excel do pallet movido para histórico: pallet_5_sem_descricao_20260410.xlsx
+[2026-04-10 09:12:43] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:12:43] [impressora_1] Pallet encerrado | Nº 5 | Arquivo: pallet_5_sem_descricao_20260410.xlsx
+[2026-04-10 09:12:43] [impressora_1] Pallet iniciado | Recebimento: 20260410_091229 | Pallet nº 6 | Sessão: 20260410_091243
+[2026-04-10 09:12:45] [impressora_1] Excel do pallet movido para histórico: pallet_6_sem_descricao_20260410.xlsx
+[2026-04-10 09:12:45] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:12:45] [impressora_1] Pallet encerrado | Nº 6 | Arquivo: pallet_6_sem_descricao_20260410.xlsx
+[2026-04-10 09:12:45] [impressora_1] Pallet iniciado | Recebimento: 20260410_091229 | Pallet nº 7 | Sessão: 20260410_091245
+[2026-04-10 09:12:47] [impressora_1] Excel do pallet movido para histórico: pallet_7_sem_descricao_20260410.xlsx
+[2026-04-10 09:12:48] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:12:48] [impressora_1] Pallet encerrado | Nº 7 | Arquivo: pallet_7_sem_descricao_20260410.xlsx
+[2026-04-10 09:12:56] [impressora_1] Recebimento global encerrado | ID: 20260410_091229 | Pallets: 7
+[2026-04-10 09:42:05] [impressora_1] Recebimento global iniciado | ID: 20260410_094205
+[2026-04-10 09:42:12] [impressora_1] Pallet iniciado | Recebimento: 20260410_094205 | Pallet nº 1 | Sessão: 20260410_094212
+[2026-04-10 09:42:18] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-10 09:42:18] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-10 09:42:56] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260410_3.xlsx
+[2026-04-10 09:42:56] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 09:42:56] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260410_3.xlsx
+[2026-04-10 09:43:02] [impressora_1] Recebimento global encerrado | ID: 20260410_094205 | Pallets: 1
+[2026-04-10 10:25:29] [impressora_1] Recebimento global iniciado | ID: 20260410_102529
+[2026-04-10 10:25:35] [impressora_1] Pallet iniciado | Recebimento: 20260410_102529 | Pallet nº 1 | Sessão: 20260410_102535
+[2026-04-10 10:25:43] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260410_4.xlsx
+[2026-04-10 10:25:43] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 10:25:43] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260410_4.xlsx
+[2026-04-10 10:25:52] [impressora_1] Pallet iniciado | Recebimento: 20260410_102529 | Pallet nº 2 | Sessão: 20260410_102552
+[2026-04-10 10:25:54] [impressora_1] Excel do pallet movido para histórico: pallet_2_sem_descricao_20260410_2.xlsx
+[2026-04-10 10:25:54] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-10 10:25:54] [impressora_1] Pallet encerrado | Nº 2 | Arquivo: pallet_2_sem_descricao_20260410_2.xlsx
+[2026-04-10 10:25:59] [impressora_1] Recebimento global encerrado | ID: 20260410_102529 | Pallets: 2
+[2026-04-14 09:23:09] [impressora_1] Recebimento global iniciado | ID: 20260414_092309
+[2026-04-14 09:23:13] [impressora_1] Limpeza automática em histórico de etiquetas: removidos=17, erros=0, retenção=7 dias
+[2026-04-14 09:23:13] [impressora_1] Pallet iniciado | Recebimento: 20260414_092309 | Pallet nº 1 | Sessão: 20260414_092313
+[2026-04-14 09:23:18] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\entrada_etiquetas
+[2026-04-14 09:23:18] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_1\fila_processamento
+[2026-04-14 09:24:06] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260414.xlsx
+[2026-04-14 09:24:06] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-14 09:24:06] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260414.xlsx
+[2026-04-14 09:24:10] [impressora_1] Recebimento global encerrado | ID: 20260414_092309 | Pallets: 2
+[2026-04-15 11:58:46] [impressora_1] Limpeza automática em histórico de etiquetas: removidos=3, erros=0, retenção=7 dias
+[2026-04-15 11:58:46] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\entrada_etiquetas
+[2026-04-15 11:58:46] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\fila_processamento
+[2026-05-14 15:08:10] [impressora_1] Limpeza automática em histórico de pesagens: removidos=17, erros=0, retenção=30 dias
+[2026-05-14 15:08:10] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\entrada_etiquetas
+[2026-05-14 15:08:10] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\fila_processamento
+[2026-05-28 13:43:42] [impressora_1] Recebimento global iniciado | ID: 20260528_134342
+[2026-05-28 13:43:46] [impressora_1] Pallet iniciado | Recebimento: 20260528_134342 | Pallet nº 1 | Sessão: 20260528_134346
+[2026-05-28 13:59:36] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\entrada_etiquetas
+[2026-05-28 13:59:36] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\fila_processamento
+[2026-05-28 13:59:49] [impressora_1] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260528.xlsx
+[2026-05-28 13:59:49] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-05-28 13:59:49] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260528.xlsx
+[2026-05-28 13:59:49] [impressora_1] Limpeza automática em histórico de pesagens: removidos=1, erros=0, retenção=30 dias
+[2026-05-28 14:09:36] [impressora_1] Pallet iniciado | Recebimento: 20260528_134342 | Pallet nº 2 | Sessão: 20260528_140936
+[2026-05-28 14:09:39] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\entrada_etiquetas
+[2026-05-28 14:09:39] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\fila_processamento
+[2026-05-28 14:11:11] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\entrada_etiquetas
+[2026-05-28 14:11:11] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\fila_processamento
+[2026-05-28 14:11:14] [impressora_1] Encerrando monitor.
+[2026-05-28 14:11:37] [impressora_1] Excel do pallet movido para histórico: pallet_2_sem_descricao_20260528.xlsx
+[2026-05-28 14:11:37] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-05-28 14:11:37] [impressora_1] Pallet encerrado | Nº 2 | Arquivo: pallet_2_sem_descricao_20260528.xlsx
+[2026-05-28 14:12:34] [impressora_1] Recebimento global encerrado | ID: 20260528_134342 | Pallets: 2
+[2026-05-28 14:18:27] [impressora_1] Recebimento global iniciado | ID: 20260528_141827
+[2026-05-28 14:18:30] [impressora_1] Pallet iniciado | Recebimento: 20260528_141827 | Pallet nº 1 | Sessão: 20260528_141830
+[2026-05-28 14:18:38] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\entrada_etiquetas
+[2026-05-28 14:18:38] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\fila_processamento
+[2026-05-28 14:20:15] [impressora_1] Arquivo movido da fila para descarte (arquivo sem sessao_id): etiquetas_gs1_70.prn -> etiquetas_gs1_70__20260528_142015_132318.prn
+[2026-05-28 14:20:38] [impressora_1] Arquivo movido da fila para descarte (arquivo sem sessao_id): etiquetas_gs1_70.prn -> etiquetas_gs1_70__20260528_142038_328316.prn
+[2026-05-28 14:23:29] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_70.prn -> 20260528_141830__20260528_142329_787886__f709392b.prn
+[2026-05-28 14:23:30] [impressora_1] Descrição do produto definida automaticamente: PATINHO BOV RESFRIADO FRIGOL
+[2026-05-28 14:23:30] [impressora_1] Arquivo removido da fila após processamento: 20260528_141830__20260528_142329_787886__f709392b.prn
+[2026-05-28 14:23:30] [impressora_1] Registrado | Arquivo fila: 20260528_141830__20260528_142329_787886__f709392b.prn | Descricao: PATINHO BOV RESFRIADO FRIGOL | Qtd etiquetas: 1 | Peso total: 23.748 KG
+[2026-05-28 14:23:39] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_70.prn -> 20260528_141830__20260528_142339_721322__90914640.prn
+[2026-05-28 14:23:39] [impressora_1] Arquivo removido da fila após processamento: 20260528_141830__20260528_142339_721322__90914640.prn
+[2026-05-28 14:23:39] [impressora_1] Registrado | Arquivo fila: 20260528_141830__20260528_142339_721322__90914640.prn | Descricao: PATINHO BOV RESFRIADO FRIGOL | Qtd etiquetas: 1 | Peso total: 23.748 KG
+[2026-05-28 14:24:05] [impressora_1] Excel do pallet movido para histórico: pallet_1_PATINHO_BOV_RESFRIADO_FRIGOL_20260528.xlsx
+[2026-05-28 14:24:05] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-05-28 14:24:05] [impressora_1] Pallet encerrado | Nº 1 | Arquivo: pallet_1_PATINHO_BOV_RESFRIADO_FRIGOL_20260528.xlsx
+[2026-05-28 14:28:04] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\entrada_etiquetas
+[2026-05-28 14:28:04] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\fila_processamento
+[2026-05-28 14:28:04] [impressora_1] Arquivo descartado porque a sessão está inativa: etiquetas_gs1_773.prn
+[2026-05-28 14:28:06] [impressora_1] Pallet iniciado | Recebimento: 20260528_141827 | Pallet nº 2 | Sessão: 20260528_142806
+[2026-05-28 14:28:17] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_70.prn -> 20260528_142806__20260528_142817_022053__a7aff07b.prn
+[2026-05-28 14:28:17] [impressora_1] Descrição do produto definida automaticamente: PATINHO BOV RESFRIADO FRIGOL
+[2026-05-28 14:28:17] [impressora_1] Arquivo removido da fila após processamento: 20260528_142806__20260528_142817_022053__a7aff07b.prn
+[2026-05-28 14:28:17] [impressora_1] Registrado | Arquivo fila: 20260528_142806__20260528_142817_022053__a7aff07b.prn | Descricao: PATINHO BOV RESFRIADO FRIGOL | Qtd etiquetas: 1 | Peso total: 23.748 KG
+[2026-05-28 14:28:56] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_70.prn -> 20260528_142806__20260528_142856_118170__d396cbc3.prn
+[2026-05-28 14:28:56] [impressora_1] Arquivo removido da fila após processamento: 20260528_142806__20260528_142856_118170__d396cbc3.prn
+[2026-05-28 14:28:56] [impressora_1] Registrado | Arquivo fila: 20260528_142806__20260528_142856_118170__d396cbc3.prn | Descricao: PATINHO BOV RESFRIADO FRIGOL | Qtd etiquetas: 1 | Peso total: 23.748 KG
+[2026-05-28 14:29:02] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_70.prn -> 20260528_142806__20260528_142902_656197__acf78cd6.prn
+[2026-05-28 14:29:03] [impressora_1] Arquivo removido da fila após processamento: 20260528_142806__20260528_142902_656197__acf78cd6.prn
+[2026-05-28 14:29:03] [impressora_1] Registrado | Arquivo fila: 20260528_142806__20260528_142902_656197__acf78cd6.prn | Descricao: PATINHO BOV RESFRIADO FRIGOL | Qtd etiquetas: 1 | Peso total: 23.748 KG
+[2026-05-28 14:29:05] [impressora_1] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_70.prn -> 20260528_142806__20260528_142905_535909__aea6e724.prn
+[2026-05-28 14:29:05] [impressora_1] Arquivo removido da fila após processamento: 20260528_142806__20260528_142905_535909__aea6e724.prn
+[2026-05-28 14:29:05] [impressora_1] Registrado | Arquivo fila: 20260528_142806__20260528_142905_535909__aea6e724.prn | Descricao: PATINHO BOV RESFRIADO FRIGOL | Qtd etiquetas: 1 | Peso total: 23.748 KG
+[2026-05-28 14:39:27] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\entrada_etiquetas
+[2026-05-28 14:39:27] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\fila_processamento
+[2026-05-28 14:46:14] [impressora_1] Excel do pallet movido para histórico: pallet_2_PATINHO_BOV_RESFRIADO_FRIGOL_20260528.xlsx
+[2026-05-28 14:46:14] [impressora_1] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-05-28 14:46:14] [impressora_1] Pallet encerrado | Nº 2 | Arquivo: pallet_2_PATINHO_BOV_RESFRIADO_FRIGOL_20260528.xlsx
+[2026-05-28 14:46:18] [impressora_1] Recebimento global encerrado | ID: 20260528_141827 | Pallets: 3
+[2026-06-02 12:28:02] [impressora_1] Recebimento global iniciado | ID: 20260602_122802
+[2026-06-02 12:28:04] [impressora_1] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\entrada_etiquetas
+[2026-06-02 12:28:04] [impressora_1] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_1\fila_processamento
+[2026-06-02 12:28:07] [impressora_1] Pallet iniciado | Recebimento: 20260602_122802 | Pallet nº 1 | Sessão: 20260602_122807
+[2026-06-02 12:28:48] [impressora_1] Arquivo capturado para fila e removido da entrada: 20260602_121717__20260602_121803_456548__146b42d3_20260602_121803_769647.prn -> 20260602_122807__20260602_122848_504486__c6132b0a.prn
+[2026-06-02 12:28:49] [impressora_1] Descrição do produto definida automaticamente: CARPACCIO LAGARTO BOV CARAPRETA
+[2026-06-02 12:28:49] [impressora_1] Arquivo removido da fila após processamento: 20260602_122807__20260602_122848_504486__c6132b0a.prn
+[2026-06-02 12:28:49] [impressora_1] Registrado | Arquivo fila: 20260602_122807__20260602_122848_504486__c6132b0a.prn | Descricao: CARPACCIO LAGARTO BOV CARAPRETA | Qtd etiquetas: 1 | Peso total: 3.4 KG
+[2026-06-02 12:35:34] [impressora_1] Encerrando monitor.

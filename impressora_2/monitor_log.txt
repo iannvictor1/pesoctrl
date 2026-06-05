@@ -1,0 +1,68 @@
+[2026-04-02 09:53:01] [impressora_2] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-02 09:53:01] [impressora_2] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_2\entrada_etiquetas
+[2026-04-02 09:53:01] [impressora_2] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_2\fila_processamento
+[2026-04-07 10:46:00] [impressora_2] Recebimento iniciado | ID: 20260407_104600
+[2026-04-07 10:46:03] [impressora_2] Limpeza automática em histórico de etiquetas: removidos=7, erros=0, retenção=7 dias
+[2026-04-07 10:46:03] [impressora_2] Pallet iniciado | Recebimento: 20260407_104600 | Pallet nº 1 | Sessão: 20260407_104603
+[2026-04-07 10:46:09] [impressora_2] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_2\entrada_etiquetas
+[2026-04-07 10:46:09] [impressora_2] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_2\fila_processamento
+[2026-04-07 10:46:13] [impressora_2] Excel do pallet movido para histórico: pallet_1_sem_descricao_20260407.xlsx
+[2026-04-07 10:46:13] [impressora_2] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 10:46:13] [impressora_2] Pallet encerrado | Nº 1 | Arquivo: pallet_1_sem_descricao_20260407.xlsx
+[2026-04-07 10:46:19] [impressora_2] Pallet iniciado | Recebimento: 20260407_104600 | Pallet nº 2 | Sessão: 20260407_104619
+[2026-04-07 10:46:57] [impressora_2] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260407_104619__20260407_104657_168014__82a05314.prn
+[2026-04-07 10:46:57] [impressora_2] Descrição do produto definida automaticamente: LAGARTO BOV CONG FRIBOI
+[2026-04-07 10:46:57] [impressora_2] Arquivo removido da fila após processamento: 20260407_104619__20260407_104657_168014__82a05314.prn
+[2026-04-07 10:46:57] [impressora_2] Registrado | Arquivo fila: 20260407_104619__20260407_104657_168014__82a05314.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-07 10:47:02] [impressora_2] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260407_104619__20260407_104702_591812__15af9e26.prn
+[2026-04-07 10:47:03] [impressora_2] Arquivo removido da fila após processamento: 20260407_104619__20260407_104702_591812__15af9e26.prn
+[2026-04-07 10:47:03] [impressora_2] Registrado | Arquivo fila: 20260407_104619__20260407_104702_591812__15af9e26.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-07 10:47:04] [impressora_2] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260407_104619__20260407_104704_382980__8b9c2893.prn
+[2026-04-07 10:47:04] [impressora_2] Arquivo removido da fila após processamento: 20260407_104619__20260407_104704_382980__8b9c2893.prn
+[2026-04-07 10:47:04] [impressora_2] Registrado | Arquivo fila: 20260407_104619__20260407_104704_382980__8b9c2893.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-07 10:47:07] [impressora_2] Arquivo capturado para fila e removido da entrada: etiquetas_gs1_773.prn -> 20260407_104619__20260407_104707_856260__cf093ca3.prn
+[2026-04-07 10:47:08] [impressora_2] Arquivo removido da fila após processamento: 20260407_104619__20260407_104707_856260__cf093ca3.prn
+[2026-04-07 10:47:08] [impressora_2] Registrado | Arquivo fila: 20260407_104619__20260407_104707_856260__cf093ca3.prn | Descricao: LAGARTO BOV CONG FRIBOI | Qtd etiquetas: 50 | Peso total: 1500.0 KG
+[2026-04-07 10:47:26] [impressora_2] Excel do pallet movido para histórico: pallet_2_LAGARTO_BOV_CONG_FRIBOI_20260407.xlsx
+[2026-04-07 10:47:26] [impressora_2] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-07 10:47:26] [impressora_2] Pallet encerrado | Nº 2 | Arquivo: pallet_2_LAGARTO_BOV_CONG_FRIBOI_20260407.xlsx
+[2026-04-07 10:47:29] [impressora_2] Recebimento encerrado | ID: 20260407_104600 | Pallets: 2
+[2026-04-07 14:30:57] [impressora_2] Recebimento global iniciado | ID: 20260407_143057
+[2026-04-07 14:31:06] [impressora_2] Recebimento global encerrado | ID: 20260407_143057 | Pallets: 0
+[2026-04-07 14:32:55] [impressora_2] Recebimento global iniciado | ID: 20260407_143255
+[2026-04-07 14:33:27] [impressora_2] Recebimento global encerrado | ID: 20260407_143255 | Pallets: 1
+[2026-04-07 15:34:26] [impressora_2] Recebimento global iniciado | ID: 20260407_153426
+[2026-04-07 15:39:03] [impressora_2] Recebimento global encerrado | ID: 20260407_153426 | Pallets: 20
+[2026-04-10 09:08:49] [impressora_2] Recebimento global iniciado | ID: 20260410_090849
+[2026-04-10 09:09:28] [impressora_2] Recebimento global encerrado | ID: 20260410_090849 | Pallets: 4
+[2026-04-10 09:12:06] [impressora_2] Recebimento global iniciado | ID: 20260410_091206
+[2026-04-10 09:12:23] [impressora_2] Recebimento global encerrado | ID: 20260410_091206 | Pallets: 1
+[2026-04-10 09:12:29] [impressora_2] Recebimento global iniciado | ID: 20260410_091229
+[2026-04-10 09:12:56] [impressora_2] Recebimento global encerrado | ID: 20260410_091229 | Pallets: 7
+[2026-04-10 09:42:05] [impressora_2] Recebimento global iniciado | ID: 20260410_094205
+[2026-04-10 09:43:02] [impressora_2] Recebimento global encerrado | ID: 20260410_094205 | Pallets: 1
+[2026-04-10 10:25:29] [impressora_2] Recebimento global iniciado | ID: 20260410_102529
+[2026-04-10 10:25:59] [impressora_2] Recebimento global encerrado | ID: 20260410_102529 | Pallets: 2
+[2026-04-14 09:23:09] [impressora_2] Recebimento global iniciado | ID: 20260414_092309
+[2026-04-14 09:23:36] [impressora_2] Limpeza automática em histórico de etiquetas: removidos=17, erros=0, retenção=7 dias
+[2026-04-14 09:23:36] [impressora_2] Pallet iniciado | Recebimento: 20260414_092309 | Pallet nº 2 | Sessão: 20260414_092335
+[2026-04-14 09:23:43] [impressora_2] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_2\entrada_etiquetas
+[2026-04-14 09:23:43] [impressora_2] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\Controle_Pesagem\impressora_2\fila_processamento
+[2026-04-14 09:23:56] [impressora_2] Excel do pallet movido para histórico: pallet_2_sem_descricao_20260414.xlsx
+[2026-04-14 09:23:56] [impressora_2] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-04-14 09:23:56] [impressora_2] Pallet encerrado | Nº 2 | Arquivo: pallet_2_sem_descricao_20260414.xlsx
+[2026-04-14 09:24:10] [impressora_2] Recebimento global encerrado | ID: 20260414_092309 | Pallets: 2
+[2026-05-28 13:43:42] [impressora_2] Recebimento global iniciado | ID: 20260528_134342
+[2026-05-28 14:12:34] [impressora_2] Recebimento global encerrado | ID: 20260528_134342 | Pallets: 2
+[2026-05-28 14:18:27] [impressora_2] Recebimento global iniciado | ID: 20260528_141827
+[2026-05-28 14:38:19] [impressora_2] Limpeza automática em histórico de etiquetas: removidos=4, erros=0, retenção=7 dias
+[2026-05-28 14:38:19] [impressora_2] Limpeza automática em histórico de pesagens: removidos=16, erros=0, retenção=30 dias
+[2026-05-28 14:38:19] [impressora_2] Pallet iniciado | Recebimento: 20260528_141827 | Pallet nº 3 | Sessão: 20260528_143819
+[2026-05-28 14:39:29] [impressora_2] Iniciando monitor da entrada: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_2\entrada_etiquetas
+[2026-05-28 14:39:29] [impressora_2] Pasta de fila real: C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl\impressora_2\fila_processamento
+[2026-05-28 14:46:07] [impressora_2] Excel do pallet movido para histórico: pallet_3_sem_descricao_20260528.xlsx
+[2026-05-28 14:46:07] [impressora_2] Novo Excel criado: pesagens_em_andamento.xlsx
+[2026-05-28 14:46:07] [impressora_2] Pallet encerrado | Nº 3 | Arquivo: pallet_3_sem_descricao_20260528.xlsx
+[2026-05-28 14:46:07] [impressora_2] Limpeza automática em histórico de pesagens: removidos=1, erros=0, retenção=30 dias
+[2026-05-28 14:46:18] [impressora_2] Recebimento global encerrado | ID: 20260528_141827 | Pallets: 3
+[2026-06-02 12:28:02] [impressora_2] Recebimento global iniciado | ID: 20260602_122802

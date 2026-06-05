@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual
+venv/
+.env/
+
+# Logs
+*.log
+
+# Excel gerado
+*.xlsx
+
+# Arquivos de sessão / estado
+*.json
+
+# Cache e temporários
+*.tmp
+*.bak
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Pastas do seu sistema (IMPORTANTE)
+entrada_etiquetas/
+fila_processamento/
+historico_etiquetas/
+historico_pesagens/
+fila_descartada/
+
+# VSCode / IDE
+.vscode/
+.idea/

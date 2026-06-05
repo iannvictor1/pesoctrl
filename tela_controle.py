@@ -24,6 +24,7 @@ from monitor import (
     executar_limpeza_automatica,
     existe_pallet_ativo_em_qualquer_impressora,
 )
+from somador_entrega import renderizar_somador_entrega
 
 st.set_page_config(
     page_title="PesoCtrl — Controle de Pesagens",
@@ -386,6 +387,50 @@ h2, h3, [data-testid="stHeading"] {
 ::-webkit-scrollbar-track { background: #0a0a0a; }
 ::-webkit-scrollbar-thumb { background: #4a4a4a; border-radius: 2px; }
 ::-webkit-scrollbar-thumb:hover { background: #d97706; }
+
+@media (max-width: 768px) {
+    :root {
+        --sidebar-w: 100%;
+        --header-h: 0px;
+    }
+
+    .sidebar-impressoras {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        width: 100% !important;
+        height: auto !important;
+        padding: 12px !important;
+        border-right: none !important;
+        border-bottom: 1px solid #1f1f1f !important;
+    }
+
+    .block-container,
+    [data-testid="stMainBlockContainer"] {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    div[data-testid="stHorizontalBlock"] {
+        flex-direction: column !important;
+        gap: 0.75rem !important;
+    }
+
+    .stTabs [data-baseweb="tab"] {
+        font-size: 12px !important;
+        padding: 10px 8px !important;
+        letter-spacing: 1px !important;
+    }
+
+    h1, h2, h3, [data-testid="stHeading"] {
+        word-break: normal !important;
+        overflow-wrap: normal !important;
+        white-space: normal !important;
+        letter-spacing: 1px !important;
+    }
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -1074,7 +1119,7 @@ def renderizar_painel(nome_impressora: str):
             unsafe_allow_html=True,
         )
     else:
-        st.dataframe(df, width="stretch")
+        st.dataframe(df, use_container_width=True)
 
     section_label("Histórico de pallets")
 
@@ -1092,7 +1137,7 @@ def renderizar_painel(nome_impressora: str):
             }
             for arq in arquivos_historico[:20]
         ]
-        st.dataframe(pd.DataFrame(dados), width="stretch", hide_index=True)
+        st.dataframe(pd.DataFrame(dados), use_container_width=True, hide_index=True)
     else:
         st.markdown(
             """
@@ -1186,8 +1231,14 @@ if not CONFIG_IMPRESSORAS:
 renderizar_sidebar_impressoras()
 renderizar_bloco_recebimento_global()
 
-abas = st.tabs([CONFIG_IMPRESSORAS[k]["nome_amigavel"] for k in CONFIG_IMPRESSORAS])
+nomes_abas = [CONFIG_IMPRESSORAS[k]["nome_amigavel"] for k in CONFIG_IMPRESSORAS]
+nomes_abas.append("Somador de Entrega")
 
-for aba, nome_impressora in zip(abas, CONFIG_IMPRESSORAS):
+abas = st.tabs(nomes_abas)
+
+for aba, nome_impressora in zip(abas[:-1], CONFIG_IMPRESSORAS):
     with aba:
         renderizar_painel(nome_impressora)
+        
+with abas[-1]:
+    renderizar_somador_entrega()
