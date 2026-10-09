@@ -1,6 +1,7 @@
 from pathlib import Path
+import os
 
-BASE = Path(r"C:\Users\Supervidor Externo\OneDrive\Desktop\pesoctrl")
+BASE = Path(os.environ.get("PESOCTRL_DATA_DIR", str(Path(__file__).resolve().parent)))
 
 ARQUIVO_RECEBIMENTO_GLOBAL = BASE / "recebimento_global.json"
 

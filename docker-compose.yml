@@ -1,0 +1,96 @@
+name: pesoctrl
+
+x-python: &python
+  image: pesoctrl-python:local
+  restart: unless-stopped
+  init: true
+  environment: &python-env
+    DATABASE_URL: postgresql+psycopg://pesoctrl:${POSTGRES_PASSWORD:-pesoctrl}@postgres:5432/pesoctrl
+    PESOCTRL_DATA_DIR: /data
+    WATCHDOG_USE_POLLING: "1"
+    TZ: America/Fortaleza
+  volumes:
+    - ./impressora_1:/data/impressora_1
+    - ./impressora_2:/data/impressora_2
+    - ./recebimento_global.json:/data/recebimento_global.json
+  depends_on:
+    postgres:
+      condition: service_healthy
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: pesoctrl_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: pesoctrl
+      POSTGRES_USER: pesoctrl
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-pesoctrl}
+    ports:
+      - "127.0.0.1:15432:5432"
+    volumes:
+      - pesoctrl_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pesoctrl -d pesoctrl"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    <<: *python
+    build: .
+    environment:
+      <<: *python-env
+      ADB_PATH: /usr/bin/adb
+    volumes:
+      - ./impressora_1:/data/impressora_1
+      - ./impressora_2:/data/impressora_2
+      - ./recebimento_global.json:/data/recebimento_global.json
+      - pesoctrl_adb:/root/.android
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8001/api/health', timeout=5)"]
+      interval: 10s
+      timeout: 6s
+      retries: 12
+      start_period: 30s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:${FRONTEND_PORT:-5174}:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1/api/health"]
+      interval: 15s
+      timeout: 6s
+      retries: 5
+
+  streamlit:
+    <<: *python
+    depends_on:
+      api:
+        condition: service_healthy
+    command: ["python", "-m", "streamlit", "run", "tela_controle.py", "--server.address=0.0.0.0", "--server.port=8501", "--server.headless=true", "--browser.gatherUsageStats=false"]
+    ports:
+      - "0.0.0.0:${STREAMLIT_PORT:-8501}:8501"
+    volumes:
+      - ./impressora_1:/data/impressora_1
+      - ./impressora_2:/data/impressora_2
+      - ./recebimento_global.json:/data/recebimento_global.json
+      - ./somador_entrega.json:/data/somador_entrega.json
+      - ./historico_somador_entregas:/data/historico_somador_entregas
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8501/_stcore/health', timeout=5)"]
+      interval: 15s
+      timeout: 6s
+      retries: 5
+
+volumes:
+  pesoctrl_pgdata:
+    name: pesoctrl_pesoctrl_pgdata
+  pesoctrl_adb:

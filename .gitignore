@@ -4,22 +4,46 @@ __pycache__/
 
 # Ambiente virtual
 venv/
+.venv/
+.env
 .env/
+.env.*
+!.env.example
+.runtime/
+.agents/
+.codex/
+.streamlit/secrets.toml
+*.rar
+*.dump
+*.sqlite*
+*.db
 
 # Logs
 *.log
+monitor_log.txt
+
+# Backups
+backups/
 
 # Excel gerado
 *.xlsx
 
 # Arquivos de sessão
 *.json
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/tsconfig.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
 
 # Pastas do sistema
 entrada_etiquetas/
 fila_processamento/
 historico_etiquetas/
 historico_pesagens/
+historico_somador_entregas/
 fila_descartada/
 
 # IDE

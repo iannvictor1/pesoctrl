@@ -1,5 +1,10 @@
 #### **📦 PesoCtrl**
 
+> **Producao com Docker (API + frontend + banco + Streamlit):** consulte
+> [DOCKER.md](DOCKER.md). `scripts/preparar_producao.ps1` prepara e inicia todos
+> os containers; `scripts/criar_tarefas_producao.ps1` configura a inicializacao
+> no login do Windows. As instrucoes de instalacao manual abaixo sao legadas.
+
 
 
 Sistema de automação para controle de pesagens industriais com suporte a múltiplas impressoras, processamento em tempo real e interface web.
@@ -198,7 +203,7 @@ Controle\_Pesagem/
 
 
 
-**git clone https://github.com/seuusuario/pesoctrl.git**
+**git clone https://github.com/iannvictor1/pesoctrl.git**
 
 **cd pesoctrl**
 
@@ -251,6 +256,44 @@ Para disparar a atualizacao remotamente a partir de outro computador, habilite P
 O script executa `git pull`, cria/atualiza `.venv`, instala as dependencias de `requirements.txt` e reinicia servico ou tarefa agendada quando informado.
 
 O arquivo `config.py` e protegido antes do `git pull`, para preservar os caminhos e impressoras configurados na maquina de producao.
+
+##### Instalacao em producao com FastAPI + React + PostgreSQL
+
+Pre-requisitos na maquina:
+
+* Git
+* Docker Desktop com containers Linux e Docker Compose v2
+* PowerShell como Administrador para criar tarefas agendadas
+
+Python e Node.js sao instalados nas imagens Docker. Para clonar e configurar
+o `.env` na primeira instalacao, siga [DOCKER.md](DOCKER.md).
+
+Preparar imagens e iniciar os servicos:
+
+```powershell
+.\scripts\preparar_producao.ps1
+```
+
+Criar e iniciar tarefas agendadas:
+
+```powershell
+.\scripts\criar_tarefas_producao.ps1
+```
+
+Servicos padrao:
+
+* PostgreSQL: `localhost:15432`
+* API FastAPI (via frontend): `http://127.0.0.1:5174/docs`
+* Frontend React: `http://127.0.0.1:5174`
+* Streamlit legado: `http://127.0.0.1:8501`
+
+Backup manual do PostgreSQL:
+
+```powershell
+.\scripts\backup_postgres.ps1
+```
+
+Os backups ficam em `backups\postgres` e a tarefa agendada padrao executa diariamente as 23:30.
 
 
 

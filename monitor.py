@@ -9,10 +9,12 @@ import uuid
 import sys
 import os
 import subprocess
+import signal
 
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Font
 from watchdog.observers import Observer
+from watchdog.observers.polling import PollingObserver
 from watchdog.events import FileSystemEventHandler
 
 from config import montar_config, CONFIG_IMPRESSORAS, ARQUIVO_RECEBIMENTO_GLOBAL
@@ -39,6 +41,16 @@ excel_lock = threading.Lock()
 log_lock = threading.Lock()
 recebimento_lock = threading.Lock()
 arquivos_capturados_recentemente = {}
+
+
+def executar_operacao_banco(nome_acao: str, *args, **kwargs) -> tuple[bool, str | None]:
+    try:
+        from backend import repository
+
+        acao = getattr(repository, nome_acao)
+        return repository.tentar_salvar(acao, *args, **kwargs)
+    except Exception as e:
+        return False, str(e)
 
 
 def garantir_pastas(cfg: dict) -> None:
@@ -235,10 +247,18 @@ def iniciar_recebimento_global() -> tuple[bool, str]:
         }
         salvar_recebimento_global(novo)
 
+    ok_db, erro_db = executar_operacao_banco(
+        "salvar_recebimento_iniciado",
+        recebimento_id,
+        novo["inicio_recebimento"],
+    )
+
     for nome_impressora in CONFIG_IMPRESSORAS:
         cfg_tmp = montar_config(nome_impressora)
         garantir_pastas(cfg_tmp)
         log(cfg_tmp, f"Recebimento global iniciado | ID: {recebimento_id}")
+        if not ok_db:
+            log(cfg_tmp, f"Banco indisponivel ao salvar recebimento iniciado: {erro_db}")
 
     return True, f"Recebimento iniciado. ID: {recebimento_id}"
 
@@ -262,10 +282,18 @@ def encerrar_recebimento_global() -> tuple[bool, str]:
 
         salvar_recebimento_global(recebimento_padrao())
 
+    ok_db, erro_db = executar_operacao_banco(
+        "salvar_recebimento_encerrado",
+        recebimento_id,
+        total_pallets,
+    )
+
     for nome_impressora in CONFIG_IMPRESSORAS:
         cfg_tmp = montar_config(nome_impressora)
         garantir_pastas(cfg_tmp)
         log(cfg_tmp, f"Recebimento global encerrado | ID: {recebimento_id} | Pallets: {total_pallets}")
+        if not ok_db:
+            log(cfg_tmp, f"Banco indisponivel ao salvar recebimento encerrado: {erro_db}")
 
     return True, f"Recebimento {recebimento_id} encerrado. Total de pallets: {total_pallets}."
 
@@ -345,6 +373,10 @@ def iniciar_sessao(cfg: dict) -> tuple[bool, str]:
     }
     salvar_status(cfg, novo_status)
 
+    ok_db, erro_db = executar_operacao_banco("salvar_pallet_iniciado", cfg, novo_status)
+    if not ok_db:
+        log(cfg, f"Banco indisponivel ao salvar pallet iniciado: {erro_db}")
+
     with excel_lock:
         if not cfg["arquivo_excel_atual"].exists():
             criar_excel_novo(cfg)
@@ -380,6 +412,10 @@ def encerrar_sessao(cfg: dict) -> tuple[bool, str]:
         if cfg["arquivo_excel_atual"].exists():
             shutil.move(str(cfg["arquivo_excel_atual"]), str(destino))
             log(cfg, f"Excel do pallet movido para histórico: {destino.name}")
+
+        ok_db, erro_db = executar_operacao_banco("salvar_pallet_encerrado", cfg, status, str(destino))
+        if not ok_db:
+            log(cfg, f"Banco indisponivel ao salvar pallet encerrado: {erro_db}")
 
         salvar_status(cfg, status_padrao())
         criar_excel_novo(cfg)
@@ -596,6 +632,56 @@ def extrair_descricao(conteudo: str) -> str:
     return candidatos[0] if candidatos else ""
 
 
+def normalizar_codigo_barras(valor: str) -> str:
+    codigo = (valor or "").strip()
+    codigo = re.sub(r"^LA,", "", codigo, flags=re.IGNORECASE)
+    return re.sub(r"[\s\x1d\x1e\x1f]+", "", codigo)
+
+
+def decodificar_campo_codigo_barras(valor: str) -> str:
+    codigo = (valor or "").strip()
+    codigo = codigo.replace("_1D", "\x1d").replace("_1d", "\x1d")
+    codigo = codigo.replace("\\1D", "\x1d").replace("\\1d", "\x1d")
+
+    if codigo.startswith(">;"):
+        codigo = codigo[2:]
+    if codigo.startswith(">:"):
+        codigo = codigo[2:]
+
+    if codigo.startswith(">8"):
+        codigo = codigo[2:]
+    codigo = re.sub(r"^LA,", "", codigo, flags=re.IGNORECASE)
+    codigo = codigo.replace(">8", "\x1d")
+
+    codigo = re.sub(r"\((\d{2,4})\)", r"\1", codigo)
+    codigo = codigo.replace("^", "").replace("~", "")
+    return codigo.strip()
+
+
+def extrair_codigo_barras_original(conteudo: str) -> str:
+    linhas_fd = re.findall(r"\^FD(.*?)\^FS", conteudo, flags=re.IGNORECASE | re.DOTALL)
+
+    candidatos = []
+    for linha in linhas_fd:
+        codigo = decodificar_campo_codigo_barras(linha)
+        normalizado = normalizar_codigo_barras(codigo)
+
+        if not normalizado:
+            continue
+        if not re.search(r"\d{14,}", normalizado):
+            continue
+        if any(palavra in normalizado.upper() for palavra in ("VALIDADE", "DATA", "COD:", "KG")):
+            continue
+        if normalizado.startswith("02") or normalizado.startswith("01") or len(normalizado) >= 20:
+            candidatos.append(normalizado)
+
+    if candidatos:
+        return max(candidatos, key=len)
+
+    matches = re.findall(r"(02\d{14,}[0-9A-Za-z.,\x1d]{4,})", conteudo)
+    return normalizar_codigo_barras(max(matches, key=len)) if matches else ""
+
+
 def copiar_e_ler_arquivo(cfg: dict, origem: Path, destino: Path):
     ultimo_erro = None
 
@@ -628,6 +714,7 @@ def montar_registro(conteudo: str, peso_extraido) -> dict:
         "QtdEtiq": qtd_etiquetas,
         "PesoTotalKG": peso_total,
         "Validade": extrair_validade(conteudo),
+        "CodigoBarrasOriginal": extrair_codigo_barras_original(conteudo),
     }
 
 
@@ -817,6 +904,17 @@ def processar_arquivo_fila(cfg: dict, caminho_fila: Path):
 
     append_registro_excel(cfg, registro)
 
+    ok_db, erro_db = executar_operacao_banco(
+        "salvar_pesagem",
+        cfg,
+        status,
+        registro,
+        caminho_fila.name,
+        destino_historico.name,
+    )
+    if not ok_db:
+        log(cfg, f"Banco indisponivel ao salvar pesagem: {erro_db}")
+
     try:
         caminho_fila.unlink()
         log(cfg, f"Arquivo removido da fila após processamento: {caminho_fila.name}")
@@ -883,6 +981,9 @@ class EtiquetaHandler(FileSystemEventHandler):
 
 def processo_ativo(pid: int) -> bool:
     try:
+        if os.name != "nt":
+            cmdline = Path(f"/proc/{int(pid)}/cmdline").read_bytes().split(b"\0")
+            return any(arg.endswith(b"/monitor.py") for arg in cmdline)
         resultado = subprocess.run(
             ["tasklist", "/FI", f"PID eq {pid}"],
             capture_output=True,
@@ -940,13 +1041,19 @@ def iniciar_monitor_processo(nome_impressora: str) -> tuple[bool, str]:
 
     processo = subprocess.Popen(
         [python_exe, str(script), nome_impressora],
-        creationflags=subprocess.CREATE_NEW_CONSOLE
+        creationflags=subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
     )
 
-    time.sleep(1)
-
-    if processo_ativo(processo.pid):
-        return True, f"Monitor de {cfg['nome_amigavel']} iniciado com PID {processo.pid}."
+    for _ in range(150):
+        rodando, pid = status_monitor(cfg)
+        if rodando and pid == processo.pid:
+            return True, f"Monitor de {cfg['nome_amigavel']} iniciado com PID {processo.pid}."
+        if processo.poll() is not None:
+            break
+        time.sleep(0.1)
+    if processo.poll() is None:
+        processo.terminate()
+        processo.wait(timeout=10)
     return False, f"Falha ao iniciar o monitor de {cfg['nome_amigavel']}."
 
 
@@ -965,11 +1072,20 @@ def parar_monitor_processo(nome_impressora: str) -> tuple[bool, str]:
             return False, f"PID inválido para {cfg['nome_amigavel']}."
 
         if processo_ativo(pid):
-            subprocess.run(
-                ["taskkill", "/PID", str(pid), "/F"],
-                capture_output=True,
-                text=True
-            )
+            if os.name == "nt":
+                subprocess.run(
+                    ["taskkill", "/PID", str(pid), "/F"],
+                    capture_output=True,
+                    text=True
+                )
+            else:
+                os.kill(pid, signal.SIGINT)
+                for _ in range(100):
+                    if not processo_ativo(pid):
+                        break
+                    time.sleep(0.1)
+                if processo_ativo(pid):
+                    return False, "Monitor ainda encerrando; aguarde antes de iniciar novamente."
 
         remover_pid(cfg)
         return True, f"Monitor de {cfg['nome_amigavel']} encerrado."
@@ -1003,7 +1119,7 @@ def executar_monitor(nome_impressora: str):
     thread_worker.start()
 
     event_handler = EtiquetaHandler(cfg)
-    observer = Observer()
+    observer = PollingObserver() if os.environ.get("WATCHDOG_USE_POLLING") == "1" else Observer()
     observer.schedule(event_handler, str(cfg["pasta_origem"]), recursive=False)
     observer.start()
 

@@ -5,8 +5,10 @@ from datetime import datetime
 
 import pandas as pd
 import streamlit as st
+from config import BASE
 
-ARQUIVO_SOMADOR = Path("somador_entrega.json")
+ARQUIVO_SOMADOR = BASE / "somador_entrega.json"
+PASTA_HISTORICO_SOMADOR = BASE / "historico_somador_entregas"
 
 def aplicar_estilo_coletor():
     st.markdown(
@@ -136,9 +138,46 @@ def salvar_leituras(leituras):
     with open(ARQUIVO_SOMADOR, "w", encoding="utf-8") as f:
         json.dump(leituras, f, ensure_ascii=False, indent=2)
 
+def formatar_peso_csv(valor):
+    try:
+        return f"{float(valor):.3f}".replace(".", ",")
+    except (TypeError, ValueError):
+        return ""
+
+def gerar_csv_somador(leituras):
+    df_export = pd.DataFrame(leituras)
+    df_export = df_export.rename(
+        columns={
+            "data_hora": "Data/Hora",
+            "codigo": "Código",
+            "peso": "Peso (KG)",
+        }
+    )
+
+    if "Peso (KG)" in df_export.columns:
+        df_export["Peso (KG)"] = df_export["Peso (KG)"].map(formatar_peso_csv)
+
+    csv_texto = "sep=;\r\n" + df_export.to_csv(index=False, sep=";", lineterminator="\r\n")
+    return csv_texto.encode("utf-8-sig")
+
+def salvar_historico_entrega(leituras):
+    if not leituras:
+        return None
+
+    PASTA_HISTORICO_SOMADOR.mkdir(parents=True, exist_ok=True)
+    agora = datetime.now()
+    nome_arquivo = f"entrega_{agora.strftime('%Y%m%d_%H%M%S_%f')}.csv"
+    caminho = PASTA_HISTORICO_SOMADOR / nome_arquivo
+    caminho.write_bytes(gerar_csv_somador(leituras))
+    return caminho
+
 def renderizar_somador_entrega():
     aplicar_estilo_coletor()
     st.subheader("Somador de Entrega")
+
+    mensagem_historico = st.session_state.pop("mensagem_historico_somador", None)
+    if mensagem_historico:
+        st.success(mensagem_historico)
     
     leituras = carregar_leituras()
     
@@ -203,25 +242,32 @@ def renderizar_somador_entrega():
                 
     with b2:
         if st.button("Zerar entrega"):
-            salvar_leituras([])
-            st.rerun()
+            if leituras:
+                try:
+                    caminho_historico = salvar_historico_entrega(leituras)
+                    salvar_leituras([])
+                    st.session_state["mensagem_historico_somador"] = (
+                        f"Entrega zerada e salva no histórico: {caminho_historico.name}"
+                    )
+                    st.rerun()
+                except OSError as erro:
+                    st.error(f"Não foi possível salvar o histórico. A entrega não foi zerada: {erro}")
     
     with b3:
         if leituras:
-            df_export = pd.DataFrame(leituras)
-            csv = df_export.to_csv(index=False, sep=";").encode("utf-8-sig")
+            csv = gerar_csv_somador(leituras)
             
             st.download_button(
                 "Exportar CSV",
                 data=csv,
                 file_name="somador_entrega.csv",
-                mime="text/csv"
+                mime="text/csv; charset=utf-8"
             )
     
     if leituras:
         st.markdown("### Últimas leituras")
         df = pd.DataFrame(leituras)
-        df = df.tail(20).iloc[::-1]
+        df = df.tail(100).iloc[::-1]
         st.dataframe(df, use_container_width=True)
     else:
         st.info("Nenhuma etiqueta lida ainda.")
